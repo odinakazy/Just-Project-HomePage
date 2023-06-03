@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body">
+    <div class="form__container">
+      <div class="form__title">
+        <h2>Contact Form</h2>
+      </div>
+      <div class="form__form">
+        <form>
+          <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter Your Name" />
+          </div>
+          <div class="username">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              name="Username"
+              placeholder="Enter Your Username"
+            />
+          </div>
+          <div class="password">
+            <label for="Password">Password:</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Your password"
+            />
+          </div>
+          <div class="re-password">
+            <label for="Password">Re-type Password:</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Your password"
+            />
+          </div>
+          <div class="gender">
+            <label for="gender">Gender:</label>
+            <div class="flex">
+              <div class="male">
+                <input type="radio" name="gender" id="male" value="Male" />
+                <label for="male">Male</label>
+              </div>
+              <div class="female">
+                <input type="radio" name="gender" id="female" value="Female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+          </div>
+          <div class="tech">
+            <label for="tech">Techie Skills:</label>
+            <div class="flex">
+              <div class="html">
+                <input type="checkbox" name="html" />
+                <label for="male">HTML</label>
+              </div>
+              <div class="css">
+                <input type="checkbox" name="css" />
+                <label for="css">CSS</label>
+              </div>
+              <div class="javascript">
+                <input type="checkbox" name="javascript" />
+                <label for="javascript">javaScript</label>
+              </div>
+            </div>
+          </div>
+          <div class="phonenumber">
+            <label for="phonenumber">Phone Number:</label>
+            <input
+              type="number"
+              name="phone number"
+              placeholder="Enter Your number"
+            />
+          </div>
+          <div class="email">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="phone number"
+              placeholder="Enter Your email"
+            />
+          </div>
+          <div class="selected">
+            <label for="college">College:</label>
+            <select name="college" required>
+                <option value="" disabled selected hidden>Select a College</option>
+          </div>
+          <div class="selected">
+            <label for="college">College:</label>
+            <select name="college" required>
+                <option value="" disabled selected hidden>Select a College</option>
+          </div> 
+        </form>
+        <button class="form__button">Submit</button>
+
+      </div>
+    </div>
+  </body>
+</html>
